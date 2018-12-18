@@ -6,6 +6,7 @@ class Song
     @name = name 
     @artist_name = artist_name 
     #all song intsances have basic properties of a name & artist name 
+  @@all << self 
   end 
 
   def self.all
